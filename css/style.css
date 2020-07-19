@@ -1,0 +1,40 @@
+/* base */
+.base {
+    background-color: #faf7f2;
+    color: #665d57;
+    font-family: '游ゴシック', YuGothic, Arial, Roboto, 'Droid Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+/* header */
+.header__logo {
+    font-family: 'a-otf-futo-min-a101-pr6n', '游明朝', YuMincho, 'Hiragino Mincho ProN W3', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+}
+.header__logo:hover {
+    text-decoration: none;
+    color: #665d57;
+    opacity: .8;
+}
+.header__logo--text {
+    color: #665d57;
+}
+.header__logo--bgc {
+    background-color: #665d57;
+    color: #faf7f2;
+}
+
+
+/* navi */
+.g-navi {
+    list-style: none;
+    font-family: 'a-otf-futo-min-a101-pr6n', '游明朝', YuMincho, 'Hiragino Mincho ProN W3', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+    text-align: right;
+}
+.g-navi__items {
+    color: #665d57;
+}
+.g-navi__items:hover {
+    color: #e52e2e;
+    text-decoration: underline;
+}
