@@ -5,6 +5,9 @@
     font-family: '游ゴシック', YuGothic, Arial, Roboto, 'Droid Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     letter-spacing: 2px;
 }
+.base__title {
+    font-family: 'a-otf-futo-min-a101-pr6n', '游明朝', YuMincho, 'Hiragino Mincho ProN W3', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+}
 
 
 /* header */
@@ -37,4 +40,57 @@
 .g-navi__items:hover {
     color: #e52e2e;
     text-decoration: underline;
+}
+
+
+/* message */
+.message {
+    background-color: #fff;
+    padding: 6rem 9rem !important;
+    margin: 6rem 0;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .1);
+}
+
+/* skills */
+.skills {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg-01.png);
+    color: #faf7f2;
+    padding: 6rem 0;
+}
+.skills__tab {
+    padding: 30px;
+}
+.skills__tab--item:hover {
+    opacity: .8;
+    cursor:pointer;
+}
+.skills__tab--content {
+    display: none;
+    clear: both;
+    overflow: hidden;
+    padding: 3rem;
+    margin: 1rem 3rem;
+    color: rgba(102, 93, 87, .8);
+    background-color: #faf7f2;
+    border-radius: 5px;
+}
+
+/*ラジオボタンを全て消す*/
+input[type="radio"] {
+    display: none;
+}
+/*選択されているタブのコンテンツのみを表示*/
+#photoshop:checked ~ #photoshop-content,
+#illustrutor:checked ~ #illustrutor-content,
+#html:checked ~ #html-content,
+#css:checked ~ #css-content,
+#sass:checked ~ #sass-content,
+#ruby:checked ~ #ruby-content,
+#bootstrap:checked ~ #bootstrap-content,
+#sql:checked ~ #sql-content {
+    display: block;
 }
