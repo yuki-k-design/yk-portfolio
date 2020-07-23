@@ -3,13 +3,250 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yuki Katayama | Portfolio</title>
-  <meta name="description" content="">
+  <title>Yuki Katayama 's Portfolio</title>
+  <meta name="description" content="現役WEBデザイナー片山祐希のポートフォリオ兼ホームページです。">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-  <h1>Yuki Katayama</h1>
+
+<body class="base">
+  <header class="p-5 d-md-flex justify-content-between align-items-center">
+    <a href="#" class="header__logo">
+      <h1 class="h6 mb-0 header__logo--text">Yuki Katayama's</h1>
+      <h1 class="h2 d-inline-block header__logo--bgc p-1">Portfolio</h1>
+    </a>
+    <p>デザインの力で素敵なものにスポットライトを当てたい。</p>
+  </header>
+  <nav class="container-fluid p-0 mb-5">
+    <div class="row no-gutters align-items-end">
+      <ul class="g-navi col-4 p-5 m-0">
+        <li class=""><a href="#" class="g-navi__items">Top</a></li>
+        <li class="pt-5"><a href="#" class="g-navi__items">Message</a></li>
+        <li class="pt-5"><a href="#" class="g-navi__items">Skills</a></li>
+        <li class="pt-5"><a href="#" class="g-navi__items">Works / Portfolios</a></li>
+        <li class="pt-5"><a href="#" class="g-navi__items">About me</a></li>
+        <li class="pt-5"><a href="#" class="g-navi__items">Contact</a></li>
+      </ul>
+      <div class="col-8">
+        <img src="img/top.png" class="w-100">
+      </div>
+    </div>
+  </nav>
+  <section class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-9 message base__shadow">
+        <div class="container">
+          <h2 class="base__title h4 mb-5">デザインの力でこの世の素敵なものたちに ‘スポットライト’ を当てたい。</h2>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills">
+    <div class="container">
+      <h2 class="base__title text-center pb-5">Skills</h2>
+      <div class="skills__tab pt-5">
+        <input id="photoshop" type="radio" name="skills__tab--item">
+        <input id="illustrutor" type="radio" name="skills__tab--item">
+        <input id="html" type="radio" name="skills__tab--item">
+        <input id="css" type="radio" name="skills__tab--item">
+        <div class="row text-center">
+          <label class="skills__tab--item col-3" for="photoshop"><img src="img/icon-photoshop.png"></label>
+          <label class="skills__tab--item col-3" for="illustrutor"><img src="img/icon-illustrutor.png"></label>
+          <label class="skills__tab--item col-3" for="html"><img src="img/icon-html.png"></label>
+          <label class="skills__tab--item col-3" for="css"><img src="img/icon-css.png"></label>
+        </div>
+        
+        <div class="skills__tab--content" id="photoshop-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">Adobe Photoshop</h3>
+            <p>
+              2019.08 ~ 使用開始<br>
+              現在、実務にて活用中。基本的な操作・使用は問題なく可能です。<br>
+              バナーのデザイン作成、LPのカンプ作成の際に主に使用しています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="illustrutor-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">Adobe Illustrutor</h3>
+            <p>
+              2019.08 ~ 使用開始<br>
+              現在、実務にて活用中。基本的な操作・使用は問題なく可能です。<br>
+              バナー作成やLP作成の際に使用する、簡単なアイコン画像などの作成に使用しています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="html-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">HTML</h3>
+            <p>
+              2019.08 ~ 使用開始<br>
+              現在、実務にて活用中。Progateや書籍での基礎学習を一通り終え、コーディング可能です。<br>
+              バナー作成やLP作成のコーディングを、実務で行なっています。<br>
+              今後さらに学習を重ね、複雑なページのコーディングを目指しています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="css-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">CSS</h3>
+            <p>
+              2019.08 ~ 使用開始<br>
+              現在、実務にて活用中。Progateや書籍での基礎学習を一通り終え、コーディング可能です。<br>
+              バナー作成やLP作成のコーディングを、実務で行なっています。<br>
+              今後さらに学習を重ね、複雑なページのコーディングを目指しています。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__tab">
+        <input id="sass" type="radio" name="skills__tab--item">
+        <input id="ruby" type="radio" name="skills__tab--item">
+        <input id="bootstrap" type="radio" name="skills__tab--item">
+        <input id="sql" type="radio" name="skills__tab--item">
+        <div class="row text-center">
+          <label class="skills__tab--item col-3" for="sass"><img src="img/icon-sass.png"></label>
+          <label class="skills__tab--item col-3" for="ruby"><img src="img/icon-ruby.png"></label>
+          <label class="skills__tab--item col-3" for="bootstrap"><img src="img/icon-bootstrap.png"></label>
+          <label class="skills__tab--item col-3" for="sql"><img src="img/icon-sql.png"></label>
+        </div>
+        
+        <div class="skills__tab--content" id="sass-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">Sass</h3>
+            <p>
+              2019.09 ~ 使用開始<br>
+              現在、実務にて活用していますが、基本的な知識は学習中です。<br>
+              Progateでの学習を進め、当サイトのSass導入を目指しています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="ruby-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">Ruby</h3>
+            <p>
+              2019.09 ~ 使用開始<br>
+              現在、実務にて活用。Progateでの基礎基礎学習は一通り終えています。<br>
+              HTML内にRubyを埋め込むerbファイルでのコーディングを、実務で行なっています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="bootstrap-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">Bootstrap</h3>
+            <p>
+              2019.11 ~ 使用開始<br>
+              現在、実務にて活用。公式書籍での学習を進めていますが、基礎的な知識は実務で習得済みです。<br>
+              主に、実務でLP作成の際に導入し活用しています。<br>
+              当サイトもBootstrapを導入しています。
+            </p>
+          </div>
+        </div>
+        <div class="skills__tab--content" id="sql-content">
+          <div class="skills__tab--inner">
+            <h3 class="h4 pb-3">SQL (SQL Server)</h3>
+            <p>
+              2018.05 ~ 2019.04<br>
+              前職の実務にて活用していました。基本的な操作・使用は可能です。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-1"></div>
+        <ul class="col-10 skills__list">
+          <li class="pb-3">基本情報技術者（2018年秋 取得）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="works">
+    <div class="container works__inner">
+      <h2 class="base__title pb-5">Works / Portfolios</h2>
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="#" class="">
+          <div class="works__work base__shadow">
+            <img src="img/work-01.png" width="500px" height="350px">
+            <div class="works__mask">
+              <div class="pt-5 pb-5 w-100 h-100 d-flex flex-column justify-content-between">
+                <div>
+                <p><span class="base__title h3">LP制作</span><span class="pl-3">-work-</span></p>
+                <p>制作期間：1週間</p>
+                <p>担当：WF・デザイン作成、コーディング</p>
+                </div>
+                <div class="works__mask--buttom">
+                  <p class="base__title p-3 m-0 text-center">Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="">
+          <div class="works__work base__shadow">
+            <img src="img/work-02.png" width="500px" height="350px">
+            <div class="works__mask">
+              <div class="pt-5 pb-5 w-100 h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <p><span class="base__title h3">LP制作</span><span class="pl-3">-work-</span></p>
+                  <p>制作期間：1週間</p>
+                  <p>担当：デザイン作成、コーディング</p>
+                </div>
+                <div class="works__mask--buttom">
+                  <p class="base__title p-3 m-0 text-center">Read more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="base__title pb-5">About me</h2>
+      <div class="row pt-5">
+        <div class="col-3">
+          <h3 class="base__title h4 pt-3">Profile</h3>
+        </div>
+        <div class="col-9 about__content">
+          <p class="m-0 base__title h4">片山 祐希</p>
+          <sub>かたやま ゆうき</sub>
+          <p class="pt-5 pb-5">
+            山口県生まれ、埼玉県育ち。<br>
+            2匹のハムスターと神奈川で生活中。
+          </p>
+          <p class="m-0">2018年春より、大手SIerに新卒入社。</p>
+          <p class="pl-5">ー　SEとして社内システムの構築に携わる</p>
+          <p class="m-0">2019年秋より、投資系メディア運営会社にデザイナーとして入社。</p>
+          <p class="pl-5">ー　メディアの保守・運用、デザイン作成、SEO対策に携わる</p>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-3">
+          <h3 class="base__title h4 pt-3">SNS</h3>
+        </div>
+        <div class="col-9 about__content">
+          <p class="base__title h4">Twitter</p>
+          <p class="pl-5"><a href="#" class="about__content--link">@xxxxxx</a></p>
+          <p class="base__title h4">Instagram</p>
+          <p class="pl-5 m-0"><a href="#" class="about__content--link">@xxxxxx</a></p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="footer pt-5 pb-5">
+    <p class="text-center m-0 h6">©︎ Yuki Katayama’s Portfolio</p>
+  </footer>
 </body>
 </html>
