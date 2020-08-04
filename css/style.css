@@ -55,8 +55,6 @@
 /* message */
 .message {
     background-color: #fff;
-    padding: 6rem 9rem !important;
-    margin: 6rem 0;
 }
 
 /* skills */
@@ -67,11 +65,14 @@
     background-position: center;
     background-image: url(../img/bg-01.png);
     color: #faf7f2;
-    padding: 6rem 0;
+    padding: 3rem 0;
 }
-.skills__tab {
-    padding: 30px;
+@media (min-width: 768px) {
+    .skills {
+        padding: 6rem 0;
+    }
 }
+
 .skills__tab--item:hover {
     opacity: .7;
     cursor:pointer;
@@ -81,8 +82,6 @@
     display: none;
     clear: both;
     overflow: hidden;
-    padding: 3rem;
-    margin: 1rem 3rem;
     color: rgba(102, 93, 87, .8);
     background-color: #faf7f2;
     border-radius: 5px;
@@ -112,6 +111,16 @@ input[type="radio"] {
     z-index: 1;
     padding: 6rem 9rem !important;
     margin: 6rem 0;
+}
+@media (min-width: 768px) {
+    .works {
+        padding: 0rem !important;
+    }
+}
+@media (min-width: 992px) {
+    .works {
+        padding: 6rem 9rem !important;
+    }
 }
 .works::before {
     content: "";
@@ -194,7 +203,6 @@ input[type="radio"] {
 }
 .about__content {
     border-left: 1px solid #665d57;
-    padding: 1rem 5rem !important;
 }
 .about__content--link {
     color: #665d57;
