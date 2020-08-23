@@ -55,8 +55,6 @@
 /* message */
 .message {
     background-color: #fff;
-    padding: 6rem 9rem !important;
-    margin: 6rem 0;
 }
 
 /* skills */
@@ -67,11 +65,14 @@
     background-position: center;
     background-image: url(../img/bg-01.png);
     color: #faf7f2;
-    padding: 6rem 0;
+    padding: 3rem 0;
 }
-.skills__tab {
-    padding: 30px;
+@media (min-width: 768px) {
+    .skills {
+        padding: 6rem 0;
+    }
 }
+
 .skills__tab--item:hover {
     opacity: .7;
     cursor:pointer;
@@ -81,8 +82,6 @@
     display: none;
     clear: both;
     overflow: hidden;
-    padding: 3rem;
-    margin: 1rem 3rem;
     color: rgba(102, 93, 87, .8);
     background-color: #faf7f2;
     border-radius: 5px;
@@ -110,7 +109,6 @@ input[type="radio"] {
 .works {
     position: relative;
     z-index: 1;
-    padding: 6rem 9rem !important;
     margin: 6rem 0;
 }
 .works::before {
@@ -134,7 +132,7 @@ input[type="radio"] {
 .works__mask {
     color: #faf7f2;
     width: 100%;
-    height: 350px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -148,9 +146,16 @@ input[type="radio"] {
 }
 .works__work:hover .works__mask {
     opacity: 1;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
+@media (min-width: 768px) {
+    .works__work:hover .works__mask {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
 .works__link {
     color: #665d57;
     border: 1px solid #665d57;
@@ -194,7 +199,6 @@ input[type="radio"] {
 }
 .about__content {
     border-left: 1px solid #665d57;
-    padding: 1rem 5rem !important;
 }
 .about__content--link {
     color: #665d57;
