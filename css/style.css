@@ -109,18 +109,7 @@ input[type="radio"] {
 .works {
     position: relative;
     z-index: 1;
-    padding: 6rem 9rem !important;
     margin: 6rem 0;
-}
-@media (min-width: 768px) {
-    .works {
-        padding: 0rem !important;
-    }
-}
-@media (min-width: 992px) {
-    .works {
-        padding: 6rem 9rem !important;
-    }
 }
 .works::before {
     content: "";
@@ -143,7 +132,7 @@ input[type="radio"] {
 .works__mask {
     color: #faf7f2;
     width: 100%;
-    height: 350px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -157,9 +146,16 @@ input[type="radio"] {
 }
 .works__work:hover .works__mask {
     opacity: 1;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
+@media (min-width: 768px) {
+    .works__work:hover .works__mask {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
 .works__link {
     color: #665d57;
     border: 1px solid #665d57;
