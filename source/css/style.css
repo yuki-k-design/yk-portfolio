@@ -43,9 +43,10 @@
     font-family: 'a-otf-futo-min-a101-pr6n', '游明朝', YuMincho, 'Hiragino Mincho ProN W3', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
     text-align: right;
 }
-.g-navi__items {
+.g-navi .g-navi__items {
     color: #665d57;
 }
+
 .g-navi__items:hover {
     color: #e52e2e;
     text-decoration: underline;
@@ -209,9 +210,121 @@ input[type="radio"] {
     opacity: .7;
 }
 
-
 /* footer */
 .footer {
     background-color: #665d57;
     color: #faf7f2;
+}
+
+/* menu */
+.scroll-header-pc {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+.scroll-header-pc.show {
+    opacity: 1;
+    z-index: 5;
+}
+@media (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+    .sidenav_toggle {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+/* sidenav */
+.sidenav_toggle {
+    display: block;
+    cursor: pointer;
+    color: #665d57;
+    transition: .3s;
+}
+.sidenav_toggle.open {
+    color: #faf7f2;
+}
+.sidenav_toggle.change-menu-color {
+    color: #faf7f2;
+}
+.sidenav {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.sidenav .g-navi {
+    display: none;
+    transition: .5s;
+}
+.sidenav .g-navi__items{
+    color: #faf7f2;
+}
+.sidenav.open {
+    opacity: 1;
+    visibility: visible;
+}
+.sidenav.open .g-navi {
+    display: block;
+}
+
+@keyframes rightIn {
+    0% {
+        transform: translateX(0vh);
+    }
+    100% {
+        transform: translateX(-30vw);
+    }
+}
+@keyframes rightOut {
+    0% {
+        transform: translateX(-30vw);
+    }
+    100% {
+        transform: translateX(0vh);
+    }
+}
+@keyframes rightInSp {
+    0% {
+        transform: translateX(0vh);
+    }
+    100% {
+        transform: translateX(-70vw);
+    }
+}
+@keyframes rightOutSp {
+    0% {
+        transform: translateX(-70vw);
+    }
+    100% {
+        transform: translateX(0vh);
+    }
+}
+
+.sidenav:before {
+    content: '';
+    background-color: rgba(102, 93, 87, .9);
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: -1;
+    animation: rightOut .8s forwards;
+}
+.sidenav.open:before {
+    animation: rightIn .8s forwards;
+}
+
+@media (max-width: 767px) {
+    .sidenav.open:before {
+        animation: rightInSp .8s forwards;
+    }
+    .sidenav:before {
+        animation: rightOutSp .8s forwards;
+    }
 }

@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -17,15 +18,15 @@
   <header class="container-fluid p-4 p-md-5">
     <div class="row">
       <a href="#top" class="col-12 col-md-3 header__logo pb-3">
-        <h1 class="h6 mb-0 header__logo--text">Yuki Katayama's</h1>
-        <h1 class="h2 d-inline-block header__logo--bgc p-1">Portfolio</h1>
+        <h1 class="h6 m-0 header__logo--text">Yuki Katayama's</h1>
+        <h1 class="h2 d-inline-block header__logo--bgc p-1 m-0">Portfolio</h1>
       </a>
       <div class="col-12 col-md-9 d-md-flex align-items-center justify-content-end pb-3">
         <p class="m-0">デザインの力で素敵なものにスポットライトを当てたい。</p>
       </div>
     </div>
   </header>
-  <nav class="container-fluid p-0 mb-5">
+  <nav class="container-fluid p-0 mb-5 top-view">
     <div class="row no-gutters align-items-end">
       <ul class="d-none d-md-block g-navi col-4 p-lg-5 p-4 m-0">
         <li class=""><a href="#top" class="g-navi__items">Top</a></li>
@@ -40,7 +41,7 @@
       </div>
     </div>
   </nav>
-  <section id="message" class="container-fluid p-0">
+  <section id="message" class="container-fluid px-0 py-5">
     <div class="row no-gutters">
       <div class="col-lg-9 col-md-10 col-12 message base__shadow p-md-5 px-4 py-5 my-md-5 mb-5">
         <div class="container p-md-5">
@@ -51,7 +52,7 @@
       </div>
     </div>
   </section>
-  <section id="skills" class="skills">
+  <section id="skills" class="skills my-5">
     <div class="container px-4">
       <h2 class="base__title text-center py-3 py-md-5">Skills</h2>
       <div class="skills__tab pt-md-5">
@@ -260,5 +261,33 @@
   <footer class="footer pt-5 pb-5">
     <p class="text-center m-0 h6">©︎ Yuki Katayama’s Portfolio</p>
   </footer>
+
+  <div class="scroll-header-pc">
+    <div class="scroll-header">
+      <div class="d-flex justify-content-between align-items-center p-md-5 p-4">
+        <div class="logo">
+          <a href="#top" class="header__logo">
+            <h1 class="h6 mb-0 header__logo--text">Yuki Katayama's</h1>
+            <h1 class="h2 d-inline-block header__logo--bgc p-1 m-0">Portfolio</h1>
+          </a>
+        </div>
+        <div class="sidenav_toggle px-md-3">
+          <p class="base__title text-right">Menu</p>
+        </div>
+      </div>
+      <nav class="sidenav">
+        <ul class="g-navi p-md-5 p-4">
+          <li class=""><a href="#top" class="g-navi__items">Top</a></li>
+          <li class="pt-lg-5 pt-3"><a href="#message" class="g-navi__items">Message</a></li>
+          <li class="pt-lg-5 pt-3"><a href="#skills" class="g-navi__items">Skills</a></li>
+          <li class="pt-lg-5 pt-3"><a href="#works" class="g-navi__items">Works / Portfolios</a></li>
+          <li class="pt-lg-5 pt-3"><a href="#about" class="g-navi__items">About me</a></li>
+          <li class="pt-lg-5 pt-3"><a href="#contact" class="g-navi__items">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  </div>
+  
 </body>
 </html>
