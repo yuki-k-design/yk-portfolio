@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yuki Katayama 's Portfolio</title>
-  <meta name="description" content="現役WEBデザイナー片山祐希のポートフォリオ兼ホームページです。">
+  <meta name="description" content="Webデザイナー片山祐希のポートフォリオサイトです。">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
@@ -17,278 +17,387 @@
 
 <body id="top" class="base">
   <header class="container-fluid p-4 p-md-5">
-    <div class="row">
-      <a href="#top" class="col-12 col-md-3 header__logo pb-3">
-        <h1 class="h6 m-0 header__logo--text">Yuki Katayama's</h1>
-        <h1 class="h2 d-inline-block header__logo--bgc p-1 m-0">Portfolio</h1>
-      </a>
-      <div class="col-12 col-md-9 d-md-flex align-items-center justify-content-end pb-3">
-        <p class="m-0">デザインの力で素敵なものにスポットライトを当てたい。</p>
+    <div class="d-flex align-items-center">
+      <div class="sidenav_toggle px-md-3">
+        <div class="hb-line hb-line-1"></div>
+        <div class="hb-line hb-line-2"></div>
+        <div class="hb-line hb-line-3"></div>
+      </div>
+      <div class="scroll-header-pc">
+        <a href="#top" class="h6 mb-0">Yuki Katayama</a>
       </div>
     </div>
-  </header>
-  <nav class="container-fluid p-0 mb-5 top-view">
-    <div class="row no-gutters align-items-end">
-      <ul class="d-none d-md-block g-navi col-4 p-lg-5 p-4 m-0">
+    <nav class="sidenav">
+      <ul class="sidenav-list p-md-5 p-4">
         <li class=""><a href="#top" class="g-navi__items">Top</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#message" class="g-navi__items">Message</a></li>
         <li class="pt-lg-5 pt-3"><a href="#skills" class="g-navi__items">Skills</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#works" class="g-navi__items">Works / Portfolios</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#about" class="g-navi__items">About me</a></li>
+        <li class="pt-lg-5 pt-3"><a href="#works" class="g-navi__items">Works</a></li>
+        <li class="pt-lg-5 pt-3"><a href="#profile" class="g-navi__items">Profile</a></li>
+        <li class="pt-lg-5 pt-3"><a href="#blog" class="g-navi__items">Blog</a></li>
         <li class="pt-lg-5 pt-3"><a href="#contact" class="g-navi__items">Contact</a></li>
       </ul>
-      <div class="col-12 col-md-8">
-        <img src="img/top.png" class="w-100 h-100 overflow-hidden img-fluid">
-      </div>
+    </nav>
+  </header>
+  <div class="title_position pl-15 d-flex align-items-center top-view top-image-pc">
+    <div>
+      <h1>YUKI<br>KATAYAMA</h1>
+      <p>webDesiner's portfolio</p>
     </div>
-  </nav>
-  <section id="message" class="container-fluid px-0 py-5">
-    <div class="row no-gutters">
-      <div class="col-lg-9 col-md-10 col-12 message base__shadow p-md-5 px-4 py-5 my-md-5 mb-5">
-        <div class="container p-md-5">
-          <h2 class="base__title h4 mb-md-5 mb-4">デザインの力でこの世の素敵なものたちに ‘スポットライト’ を当てたい。</h2>
-          <p>山口生まれ・埼玉育ちの私だから考える、本当に良いものへの憧れ。<br>それがこのキャッチフレーズの由来です。その土地でしか味わえない魅力を、生まれ故郷の山口と育ちの埼玉を比較することで知りました。どんなにものが揃う都会でも、あの山口で味わった食べ物は、自然は味わえない。そんな魅力的なモノや体験は、きっと日本中にたくさんあるに違いない。だから、Webを通して物理的距離を克服し、デザインを通してその魅力をたくさんの人に伝えたい。それが私の夢です。
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="skills" class="skills my-5">
-    <div class="container px-4">
-      <h2 class="base__title text-center py-3 py-md-5">Skills</h2>
-      <div class="skills__tab pt-md-5">
-        <input id="photoshop" type="radio" name="skills__tab--item">
-        <input id="illustrutor" type="radio" name="skills__tab--item">
-        <input id="html" type="radio" name="skills__tab--item">
-        <input id="css" type="radio" name="skills__tab--item">
-        <div class="row text-center justify-content-center">
-          <label class="skills__tab--item col-3" for="photoshop"><img src="img/icon-photoshop.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="illustrutor"><img src="img/icon-illustrutor.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="html"><img src="img/icon-html.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="css"><img src="img/icon-css.png" class="img-fluid"></label>
-        </div>
-        
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="photoshop-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">Adobe Photoshop</h3>
-            <p>
-              2019.08 ~ 使用開始<br>
-              現在、実務にて活用中。基本的な操作・使用は問題なく可能です。<br>
-              バナーのデザイン作成、LPのカンプ作成の際に主に使用しています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="illustrutor-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">Adobe Illustrutor</h3>
-            <p>
-              2019.08 ~ 使用開始<br>
-              現在、実務にて活用中。基本的な操作・使用は問題なく可能です。<br>
-              バナー作成やLP作成の際に使用する、簡単なアイコン画像などの作成に使用しています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="html-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">HTML</h3>
-            <p>
-              2019.08 ~ 使用開始<br>
-              現在、実務にて活用中。Progateや書籍での基礎学習を一通り終え、コーディング可能です。<br>
-              バナー作成やLP作成のコーディングを、実務で行なっています。<br>
-              今後さらに学習を重ね、複雑なページのコーディングを目指しています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="css-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">CSS</h3>
-            <p>
-              2019.08 ~ 使用開始<br>
-              現在、実務にて活用中。Progateや書籍での基礎学習を一通り終え、コーディング可能です。<br>
-              バナー作成やLP作成のコーディングを、実務で行なっています。<br>
-              今後さらに学習を重ね、複雑なページのコーディングを目指しています。
-            </p>
-          </div>
-        </div>
-      </div>
+  </div>
 
-      <div class="skills__tab pt-md-5 pt-3">
-        <input id="sass" type="radio" name="skills__tab--item">
-        <input id="ruby" type="radio" name="skills__tab--item">
-        <input id="bootstrap" type="radio" name="skills__tab--item">
-        <input id="sql" type="radio" name="skills__tab--item">
-        <div class="row text-center justify-content-center">
-          <label class="skills__tab--item col-3" for="sass"><img src="img/icon-sass.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="ruby"><img src="img/icon-ruby.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="bootstrap"><img src="img/icon-bootstrap.png" class="img-fluid"></label>
-          <label class="skills__tab--item col-3" for="sql"><img src="img/icon-sql.png" class="img-fluid"></label>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="sass-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">Sass</h3>
-            <p>
-              2019.09 ~ 使用開始<br>
-              現在、実務にて活用していますが、基本的な知識は学習中です。<br>
-              Progateでの学習を進め、当サイトのSass導入を目指しています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="ruby-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">Ruby</h3>
-            <p>
-              2019.09 ~ 使用開始<br>
-              現在、実務にて活用。Progateでの基礎基礎学習は一通り終えています。<br>
-              HTML内にRubyを埋め込むerbファイルでのコーディングを、実務で行なっています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="bootstrap-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">Bootstrap</h3>
-            <p>
-              2019.11 ~ 使用開始<br>
-              現在、実務にて活用。公式書籍での学習を進めていますが、基礎的な知識は実務で習得済みです。<br>
-              主に、実務でLP作成の際に導入し活用しています。<br>
-              当サイトもBootstrapを導入しています。
-            </p>
-          </div>
-        </div>
-        <div class="skills__tab--content mx-lg-4 p-md-5 p-4" id="sql-content">
-          <div class="skills__tab--inner">
-            <h3 class="h4 pb-3 m-0">SQL (SQL Server)</h3>
-            <p>
-              2018.05 ~ 2019.04<br>
-              前職の実務にて活用していました。基本的な操作・使用は可能です。
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-md-5 pt-4">
-        <div class="col-1"></div>
-        <ul class="col-11 skills__list">
-          <li class="pb-3">基本情報技術者（2018年秋 取得）</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="works" class="works p-lg-5">
-    <div class="container px-4 works__inner">
-      <h2 class="base__title pb-5 text-center-md">Works / Portfolios</h2>
-      <div class="d-lg-flex justify-content-around mb-5 row">
-        <a href="#" class="base__link--active col-md-5 col-12 mb-5">
-          <div class="works__work base__shadow">
-            <img src="img/work-01.png" class="img-fluid">
-            <div class="works__mask">
-              <div class="pt-lg-5 pb-lg-4 py-4 w-100 h-100 d-flex flex-column justify-content-between">
+  <section class="px-15 pt-10">
+    <h2 class="h1 pb-6">Skills</h2>
+    <div class="row pb-5">
+      <h3 class="h4 font-weight-normal col-2">Design</h3>
+      <div class="col-10 d-flex flex-wrap">
+        <a href="#" class="base__link--active"></a>
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                 <div>
-                  <p><span class="base__title h3">LP制作</span><span class="pl-3">-work-</span></p>
-                  <p class="m-0 small">制作期間：1週間</p>
-                  <p class="small">担当：デザイン、コーディング</p>
-                </div>
-                <div class="works__mask--buttom">
-                  <p class="base__title p-lg-3 p-2 m-0 text-center">Read more</p>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href="#" class="base__link--active col-md-5 col-12">
-          <div class="works__work base__shadow">
-            <img src="img/work-02.png" class="img-fluid">
-            <div class="works__mask">
-              <div class="pt-lg-5 pb-lg-4 py-4 w-100 h-100 d-flex flex-column justify-content-between">
+        <a href="#" class="base__link--active"></a>
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                 <div>
-                  <p><span class="base__title h3">LP制作</span><span class="pl-3">-work-</span></p>
-                  <p class="m-0 small">制作期間：1週間</p>
-                  <p class="small">担当：デザイン作成、コーディング</p>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
                 </div>
-                <div class="works__mask--buttom">
-                  <p class="base__title p-lg-3 p-2 m-0 text-center">Read more</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active"></a>
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2020</p>
                 </div>
               </div>
             </div>
           </div>
         </a>
       </div>
-      <div class="row justify-content-center text-center">
-        <a href="#" class="col-md-4 col-8 d-inline-block base__title works__link p-3">
-          Show more ...
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="about">
-    <div class="container px-md-5 pl-5">
-      <h2 class="base__title pb-5">About me</h2>
-      <div class="row pt-md-5">
-        <div class="col-md-3 col-12">
-          <h3 class="base__title h4 py-3">Profile</h3>
-        </div>
-        <div class="col-1 d-block d-md-none"></div>
-        <div class="col-11 col-md-9 about__content pl-4 px-md-5 py-3">
-          <p class="m-0 base__title h4">片山 祐希</p>
-          <sub>かたやま ゆうき</sub>
-          <p class="py-md-5 py-4">
-            山口県生まれ、埼玉県育ち。<br>
-            2匹のハムスターと神奈川で生活中。
-          </p>
-          <p class="m-0">2018年春より、大手SIerに新卒入社。</p>
-          <p class="pl-md-5 pl-3">ー　SEとして社内システムの構築に携わる</p>
-          <p class="m-0">2019年秋より、投資系メディア運営会社にデザイナーとして入社。</p>
-          <p class="pl-md-5 pl-3">ー　メディアの保守・運用、デザイン作成、SEO対策に携わる</p>
-        </div>
-      </div>
-      <div class="row pt-5">
-        <div class="col-md-3 col-12">
-          <h3 id="contact" class="base__title h4 py-3">SNS / Contact</h3>
-        </div>
-        <div class="col-1 d-block d-md-none"></div>
-        <div class="col-11 col-md-9 about__content pl-4 px-md-5 py-3">
-          <p class="base__title h4">Twitter</p>
-          <p class="pl-md-5 pl-3"><a href="https://twitter.com/yuki__webdesign" target="_blank" class="about__content--link">@yuki__webdesign</a></p>
-          <p class="base__title h4">Instagram</p>
-          <p class="pl-md-5 pl-3"><a href="https://www.instagram.com/yuki___k___design/" target="_blank" class="about__content--link">@yuki___k___design
-          </a></p>
-          <p class="base__title h4">Mail</p>
-          <p class="pl-md-5 pl-3 m-0"><a href="mailto:yuki.k.design@gmail.com" target="_blank" class="about__content--link">yuki.k.design@gmail.com</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer pt-5 pb-5">
-    <p class="text-center m-0 h6">©︎ Yuki Katayama’s Portfolio</p>
-  </footer>
-
-  <div class="scroll-header-pc">
-    <div class="scroll-header">
-      <div class="d-flex justify-content-between align-items-center p-md-5 p-4">
-        <div class="logo">
-          <a href="#top" class="header__logo">
-            <h1 class="h6 mb-0 header__logo--text">Yuki Katayama's</h1>
-            <h1 class="h2 d-inline-block header__logo--bgc p-1 m-0">Portfolio</h1>
-          </a>
-        </div>
-        <div class="sidenav_toggle px-md-3">
-          <p class="base__title text-right">Menu</p>
-        </div>
-      </div>
-      <nav class="sidenav">
-        <ul class="g-navi p-md-5 p-4">
-          <li class=""><a href="#top" class="g-navi__items">Top</a></li>
-          <li class="pt-lg-5 pt-3"><a href="#message" class="g-navi__items">Message</a></li>
-          <li class="pt-lg-5 pt-3"><a href="#skills" class="g-navi__items">Skills</a></li>
-          <li class="pt-lg-5 pt-3"><a href="#works" class="g-navi__items">Works / Portfolios</a></li>
-          <li class="pt-lg-5 pt-3"><a href="#about" class="g-navi__items">About me</a></li>
-          <li class="pt-lg-5 pt-3"><a href="#contact" class="g-navi__items">Contact</a></li>
-        </ul>
-      </nav>
     </div>
     
-  </div>
-  
+    <div class="row pb-5">
+      <h3 class="h4 font-weight-normal col-2">Front</h3>
+      <div class="col-10 d-flex flex-wrap">
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row pb-5">
+      <h3 class="h4 font-weight-normal col-2">Backend</h3>
+      <div class="col-10 d-flex flex-wrap">
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row pb-5">
+      <h3 class="h4 font-weight-normal col-2">SEO</h3>
+      <div class="col-10 d-flex flex-wrap">
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="base__link--active">
+          <div class="skills__skill">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="skill__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">from</p>
+                  <p class="m-0">2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-15 pt-10">
+    <h2 class="h1 pb-6">Works</h2>
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work">
+            <img src="img/icon-photoshop.png" class="img-fluid">
+            <div class="work__mask">
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                  <p class="m-0">More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <h3 class="h6 font-weight-light mt-1">2022.07.24</h3>
+      </div>
+      <div class="pb-5">
+        <a href="#" class="base__link--active">
+          <div class="works__work__more d-flex justify-content-center align-items-center">
+            <p class="m-0">More</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Profile</h2>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>more</h3>
+  </section>
+
+  <section>
+    <h2>Profile</h2>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>2022.07.24</h3>
+    <h3>more</h3>
+  </section>
+
 </body>
-</html>
