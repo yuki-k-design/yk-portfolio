@@ -187,6 +187,26 @@ header {
     padding-bottom: 6rem;
 }
 
+.fadeUpTrigger{
+    opacity: 0;
+}
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .skills__skill {
     overflow: hidden;
     position: relative;
