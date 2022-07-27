@@ -1,9 +1,8 @@
 // 動きのきっかけとなるアニメーションの名前を定義
 function fadeAnime(){
 
-  // ふわっ
   $('.fadeUpTrigger').each(function(){ //fadeUpTriggerというクラス名が
-    var elemPos = $(this).offset().top-200;//要素より、50px上の
+    var elemPos = $(this).offset().top-200;//要素より、200px上の
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
     if (scroll >= elemPos - windowHeight){
@@ -12,6 +11,17 @@ function fadeAnime(){
     $(this).removeClass('fadeUp');// 画面外に出たらfadeUpというクラス名を外す
     }
     });
+
+    $('.zoomOutTrigger').each(function(){ //zoomOutTriggerというクラス名が
+    var elemPos = $(this).offset().top-50;//要素より、50px上の
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).addClass('zoomOut');// 画面内に入ったらzoomOutというクラス名を追記
+    }else{
+    $(this).removeClass('zoomOut');// 画面外に出たらzoomOutというクラス名を外す
+    }
+    }); 
 }
 
 // 画面をスクロールをしたら動かしたい場合の記述
