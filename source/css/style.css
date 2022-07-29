@@ -9,6 +9,7 @@ html {
   color: #707070;
   font-family: Sofia Pro,'游ゴシック', YuGothic, Arial, Roboto, 'Droid Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
 /* 縮小 */
@@ -56,6 +57,7 @@ html {
 header {
   position: fixed;
   z-index: 10;
+  width: 100vw;
 }
 
 header .hb-line {
@@ -333,8 +335,10 @@ header .hb-line {
   }
 }
 
-.title_position {
-  height: 100vh;
+@media (min-width: 768px) {
+  .title_position {
+    height: 100vh;
+  }
 }
 
 .top-image-pc {
@@ -352,12 +356,21 @@ header .hb-line {
   padding-right: 15rem;
 }
 
+.py-15 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
 .pt-15 {
   padding-top: 15rem;
 }
 
 .pb-6 {
   padding-bottom: 6rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
 }
 
 .fadeUpTrigger {
@@ -471,5 +484,51 @@ header .hb-line {
   cursor: pointer;
   opacity: 1;
   background-color: #dadada;
+}
+
+.profile__list {
+  padding-left: 3rem;
+  position: relative;
+}
+
+.profile__list dt {
+  position: relative;
+}
+
+.profile__list dt::before {
+  content: "";
+  display: block;
+  background: #FFC4AB;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: -2rem;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.profile__list__bar {
+  width: 1px;
+  height: 24rem;
+  background: #FFC4AB;
+  position: absolute;
+  left: 1rem;
+  top: -1rem;
+}
+
+footer {
+  background: #707070;
+  color: #fff;
+}
+
+.footer__nav {
+  list-style: none;
+}
+
+.footer__nav a {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
