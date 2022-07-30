@@ -335,37 +335,82 @@ header .hb-line {
   }
 }
 
-@media (min-width: 768px) {
-  .title_position {
+@media (min-width: 992px) {
+  .title-position-lg {
     height: 100vh;
   }
 }
 
-.top-image-pc {
-  background-image: url("../img/bg-image.png");
-  background-repeat: no-repeat;
-  background-position: 50vw 50%;
+@media (min-width: 992px) {
+  .top-image-lg {
+    background-image: url("../img/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: 50vw 50%;
+  }
 }
 
-.pl-15 {
-  padding-left: 15rem;
+@media (min-width: 1400px) {
+  .pl-xxl-15 {
+    padding-left: 15rem !important;
+  }
+  .px-xxl-15 {
+    padding-left: 15rem !important;
+    padding-right: 15rem !important;
+  }
 }
 
-.px-15 {
-  padding-left: 15rem;
-  padding-right: 15rem;
+@media (min-width: 1200px) {
+  .pl-xl-10 {
+    padding-left: 10rem !important;
+  }
+  .px-xl-10 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
 }
 
-.py-15 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+@media (min-width: 992px) {
+  .pl-lg-8 {
+    padding-left: 8rem !important;
+  }
+  .py-lg-15 {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+  .pt-lg-15 {
+    padding-top: 15rem;
+  }
 }
 
-.pt-15 {
-  padding-top: 15rem;
+@media (min-width: 768px) {
+  .py-md-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .pt-md-10 {
+    padding-top: 10rem;
+  }
 }
 
-.pb-6 {
+@media (min-width: 576px) {
+  .py-sm-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .pt-sm-8 {
+    padding-top: 8rem !important;
+  }
+  .pb-sm-6 {
+    padding-bottom: 6rem;
+  }
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
@@ -487,7 +532,7 @@ header .hb-line {
 }
 
 .profile__list {
-  padding-left: 3rem;
+  padding-left: 2rem;
   position: relative;
 }
 
@@ -505,18 +550,30 @@ header .hb-line {
   border: 1px solid #fff;
   position: absolute;
   top: 50%;
-  left: -2rem;
+  left: -1rem;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
 
 .profile__list__bar {
   width: 1px;
-  height: 24rem;
+  height: 30rem;
   background: #FFC4AB;
   position: absolute;
   left: 1rem;
   top: -1rem;
+}
+
+@media (min-width: 576px) {
+  .profile__list {
+    padding-left: 3rem;
+  }
+  .profile__list dt::before {
+    left: -2rem;
+  }
+  .profile__list__bar {
+    height: 24rem;
+  }
 }
 
 footer {
