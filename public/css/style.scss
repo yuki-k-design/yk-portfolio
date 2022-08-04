@@ -1,0 +1,441 @@
+html {
+    scroll-behavior: smooth;
+}
+/* base */
+.base {
+    background-color: #fff;
+    color: #707070;
+    font-family: Sofia Pro,'游ゴシック', YuGothic, Arial, Roboto, 'Droid Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+}
+
+/* 縮小 */
+.zoomOut{
+    animation-name:zoomOutAnime;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes zoomOutAnime{
+    from {
+    transform: scale(1.2);
+    opacity: 0;
+    }
+
+    to {
+    transform:scale(1);
+    opacity: 1;
+    }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+.zoomOutTrigger{
+    opacity: 0;
+}
+
+
+/* header */
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    .hb-line {
+        border-top: 1px solid #707070;
+        width: 40px;
+        padding-bottom: 12px;
+    }
+}
+
+/* header_name */
+.scroll-header-pc {
+    flex-grow: 2;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+    &.show {
+        opacity: 1;
+    }
+    a {
+        color: #707070;
+    }
+}
+@media (max-width: 767px) {
+    .sidenav_toggle {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+/* sidenav */
+.sidenav_toggle {
+    display: block;
+    cursor: pointer;
+    transition: .3s;
+    &.open .hb-line {
+        border-color: #fff;
+    }
+}
+.sidenav {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    .sidenav-list {
+        display: none;
+        transition: .5s;
+    }
+    a {
+        color: #fff;
+    }
+    &.open {
+        opacity: 1;
+        visibility: visible;
+        .sidenav-list {
+            display: block;
+            position: absolute;
+            z-index: 10;
+        }
+    }
+}
+
+@keyframes leftIn {
+    0% {
+        transform: translateX(0vh);
+    }
+    100% {
+        transform: translateX(30vw);
+    }
+}
+@keyframes leftOut {
+    0% {
+        transform: translateX(30vw);
+    }
+    100% {
+        transform: translateX(0vh);
+    }
+}
+@keyframes leftInSp {
+    0% {
+        transform: translateX(0vh);
+    }
+    100% {
+        transform: translateX(70vw);
+    }
+}
+@keyframes leftOutSp {
+    0% {
+        transform: translateX(70vw);
+    }
+    100% {
+        transform: translateX(0vh);
+    }
+}
+@keyframes hbLine1 {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    100% {
+        transform: translateY(13px) rotate(45deg);
+    }
+}
+@keyframes hbLine2 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+@keyframes hbLine3 {
+    0% {
+        transform: translate(0) rotate(0);
+    }
+    100% {
+        transform: translate(8px,-13px) rotate(-45deg);
+    }
+}
+
+.sidenav_toggle {
+    position: absolute;
+    z-index: 15;
+    &.open {
+        .hb-line-1 {
+            animation: hbLine1 .8s forwards;
+        }
+        .hb-line-2 {
+            animation: hbLine2 .8s forwards;
+        }
+        .hb-line-3 {
+            animation: hbLine3 .8s forwards;
+        }
+    }
+}
+
+.sidenav:before {
+    content: '';
+    background-color: #707070;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 100vw;
+    animation: leftOut .8s forwards;
+}
+.sidenav.open:before {
+    animation: leftIn .8s forwards;
+}
+
+@media (max-width: 767px) {
+    .sidenav.open:before {
+        animation: leftInSp .8s forwards;
+    }
+    .sidenav:before {
+        animation: leftOutSp .8s forwards;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .title-position-lg {
+        height: 100vh;
+    }
+}
+@media (min-width: 992px) {
+    .top-image-lg {
+        background-image: url("../img/bg-image.png");
+        background-repeat: no-repeat;
+        background-position: 50vw 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .pl-xxl-15 {
+        padding-left: 15rem !important;
+    }
+    .px-xxl-15 {
+        padding-left: 15rem !important;
+        padding-right: 15rem !important;
+    }
+}
+@media (min-width: 1200px) {
+    .pl-xl-10 {
+        padding-left: 10rem !important;
+    }
+    .px-xl-10 {
+        padding-left: 10rem !important;
+        padding-right: 10rem !important;
+    }
+}
+@media (min-width: 992px) {
+    .pl-lg-8 {
+        padding-left: 8rem !important;
+    }
+    .py-lg-15 {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .pt-lg-15 {
+        padding-top: 15rem;
+    }
+}
+@media (min-width: 768px) {
+    .py-md-10 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .pt-md-10 {
+        padding-top: 10rem;
+    }
+}
+@media (min-width: 576px) {
+    .py-sm-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .pt-sm-8 {
+        padding-top: 8rem !important;
+    }
+    .pb-sm-6 {
+        padding-bottom: 6rem;
+    }
+}
+.pt-6 {
+    padding-top: 6rem;
+}
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.fadeUpTrigger{
+    opacity: 0;
+}
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skills__skill {
+    overflow: hidden;
+    position: relative;
+}
+.skill__mask {
+    color: #707070;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    padding: 1rem;
+    z-index: 2;
+}
+.skills__skill:hover .skill__mask {
+    cursor: pointer;
+    opacity: 1;
+    border: 1px solid #FFC4AB;
+}
+.base__link--active {
+    &:active {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        transition: .3s;
+        box-shadow: none;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.works__work {
+    overflow: hidden;
+    position: relative;
+    &__more {
+        color: #707070;
+        &:hover {
+            color: #707070;
+        }
+    }
+}
+.work__mask {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(218, 218, 218, 0.5);
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    padding: 1rem;
+    z-index: 2;
+}
+.works__work:hover .work__mask {
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.profile__list {
+    padding-left: 2rem;
+    position: relative;
+    dt{
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            background: #FFC4AB;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 50%;
+            left: -1rem;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+    &__bar {
+        width: 1px;
+        height: 30rem;
+        background: #FFC4AB;
+        position: absolute;
+        left: 1rem;
+        top: -1rem;
+    }
+}
+@media (min-width: 576px) {
+    .profile__list {
+        padding-left: 3rem;
+        dt{
+            &::before {
+                left: -2rem;
+            }
+        }
+        &__bar {
+            height: 24rem;
+        }
+    }
+}
+
+footer {
+    background: #707070;
+    color: #fff;
+}
+
+.footer__nav {
+    list-style: none;
+    a {
+        color: #fff;
+    }
+}
+
+.breadcrumbs__list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    li {
+        padding-left: 0;
+        padding-right: 2rem;
+        &:not(:first-child)::before {
+            content: "/";
+            position: relative;
+            left: -1rem;
+        }
+    }
+    a {
+        color: #707070;
+    }
+}
+@media (min-width: 576px) {
+    .breadcrumbs__list {
+        display: flex;
+        justify-content: right;
+        li {
+            padding-left: 2rem;
+            padding-right: 0;
+        }
+    }
+}
