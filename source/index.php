@@ -1,51 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yuki Katayama 's Portfolio</title>
-  <meta name="description" content="Webデザイナー片山祐希のポートフォリオサイトです。">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <meta property="og:url" content="https://yk-portfolio-2c926.firebaseapp.com/">
-  <meta property="og:title" content="Yuki Katayama 's Portfolio">
-  <meta property="og:description" content="Webデザイナー片山祐希のポートフォリオサイトです。">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://yk-portfolio-2c926.firebaseapp.com/img/ogp.png">
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Yuki Katayama 's Portfolio" />
-  <meta name="twitter:description" content="Webデザイナー片山祐希のポートフォリオサイトです。" />
-  <meta name="twitter:image" content="https://yk-portfolio-2c926.firebaseapp.com/img/ogp.png" />
-</head>
+<?php
+  $title = "Yuki Katayama 's Portfolio";
+  $description = "Webデザイナー片山祐希のポートフォリオサイトです。";
+  require_once('common/head.php');
+?>
 
-<body id="top" class="base">
-  <header class="p-4 p-sm-5 zoomOutTrigger">
-    <div class="d-flex align-items-center">
-      <div class="sidenav_toggle px-md-3">
-        <div class="hb-line hb-line-1"></div>
-        <div class="hb-line hb-line-2"></div>
-        <div class="hb-line hb-line-3"></div>
-      </div>
-      <div class="scroll-header-pc">
-        <a href="#top" class="h6 mb-0">Yuki Katayama</a>
-      </div>
-    </div>
-    <nav class="sidenav">
-      <ul class="sidenav-list p-lg-5 p-4">
-        <li class=""><a href="#top" class="g-navi__items">Top</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#skills" class="g-navi__items">Skills</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#works" class="g-navi__items">Works</a></li>
-        <li class="pt-lg-5 pt-3"><a href="#profile" class="g-navi__items">Profile</a></li>
-        <!-- <li class="pt-lg-5 pt-3"><a href="#blog" class="g-navi__items">Blog</a></li> -->
-      </ul>
-    </nav>
-  </header>
+<?php require_once('common/menu.php') ?>
+
   <div class="title-position-lg pl-xxl-15 pl-xl-10 pl-lg-8 pl-sm-5 pl-4 d-flex align-items-center top-view top-image-lg zoomOutTrigger">
     <div class="pb-5 pt-sm-8 pt-6 py-lg-0">
       <h1>YUKI<br>KATAYAMA</h1>
@@ -252,7 +212,7 @@
     <div class="container-fluid p-0 flex-wrap fadeUpTrigger">
       <div class="row">
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-04.html" class="base__link--active">
+          <a href="works/work-04.php" class="base__link--active">
             <div class="works__work">
               <img src="img/work-shinbara01.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
@@ -267,7 +227,7 @@
           <h3 class="h6 mt-1">2021.05</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-03.html" class="base__link--active">
+          <a href="works/work-03.php" class="base__link--active">
             <div class="works__work">
               <img src="img/work-kabutan02.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
@@ -282,7 +242,7 @@
           <h3 class="h6 mt-1">2020.07</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-02.html" class="base__link--active">
+          <a href="works/work-02.php" class="base__link--active">
             <div class="works__work">
               <img src="img/work-kabutan03.png" class="img-fluid" width="100%" alt="制作実績画像">
               <div class="work__mask">
@@ -297,7 +257,7 @@
           <h3 class="h6 mt-1">2020.06</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-01.html" class="base__link--active">
+          <a href="works/work-01.php" class="base__link--active">
             <div class="works__work">
               <img src="img/work-kabutan01.png" class="img-fluid" width="100%" alt="制作実績画像">
               <div class="work__mask">
@@ -313,7 +273,7 @@
         </div>
       </div>
       <div class="text-right">
-        <a href="works/works.html" class="works__work__more">More ></a>
+        <a href="works/works.php" class="works__work__more">More ></a>
       </div>
     </div>
   </section>
@@ -336,27 +296,4 @@
     </dl>
   </section>
 
-  <footer class="px-xxl-15 px-xl-10 px-5 py-lg-15 py-md-10 py-sm-8 py-6">
-    <div class="d-flex justify-content-between">
-      <div>
-        <h2 class="h1">YUKI<br>KATAYAMA</h2>
-        <p class="pb-sm-6 pb-5">webDesiner's portfolio</p>
-        <p>Maill:yuki.k.design@gmail.com</p>
-      </div>
-      <ul class="text-right footer__nav h5 d-none d-lg-block">
-        <li class="pb-5"><a href="#top">Top</a></li>
-        <li class="pb-5"><a href="#skills">Skills</a></li>
-        <li class="pb-5"><a href="#works">Works</a></li>
-        <li class="pb-5"><a href="#profile">Profile</a></li>
-        <!-- <li><a href="#">Blog</a></li> -->
-      </ul>
-    </div>
-    <div class="text-center">
-      <small>&copy; yuki katayama 2022</small>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/animation.js"></script>
-</body>
-</html>
+<?php require_once('common/footer.php') ?>
