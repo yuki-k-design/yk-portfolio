@@ -6,10 +6,10 @@
         <p>Maill:yuki.k.design@gmail.com</p>
       </div>
       <ul class="text-right footer__nav h5 d-none d-lg-block">
-        <li class="pb-5"><a href="https://yk-portfolio-2c926.firebaseapp.com/#top">Top</a></li>
-        <li class="pb-5"><a href="https://yk-portfolio-2c926.firebaseapp.com/#skills">Skills</a></li>
-        <li class="pb-5"><a href="https://yk-portfolio-2c926.firebaseapp.com/#works">Works</a></li>
-        <li class="pb-5"><a href="https://yk-portfolio-2c926.firebaseapp.com/#profile">Profile</a></li>
+        <li class="pb-5"><a href="https://yk-portfolio-0213.com/#top">Top</a></li>
+        <li class="pb-5"><a href="https://yk-portfolio-0213.com/#skills">Skills</a></li>
+        <li class="pb-5"><a href="https://yk-portfolio-0213.com/#works">Works</a></li>
+        <li class="pb-5"><a href="https://yk-portfolio-0213.com/#profile">Profile</a></li>
         <!-- <li><a href="#">Blog</a></li> -->
       </ul>
     </div>

@@ -11,10 +11,10 @@
   </div>
   <nav class="sidenav">
     <ul class="sidenav-list p-lg-5 p-4">
-      <li class=""><a href="https://yk-portfolio-2c926.firebaseapp.com/#top" class="g-navi__items">Top</a></li>
-      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-2c926.firebaseapp.com/#skills" class="g-navi__items">Skills</a></li>
-      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-2c926.firebaseapp.com/#works" class="g-navi__items">Works</a></li>
-      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-2c926.firebaseapp.com/#profile" class="g-navi__items">Profile</a></li>
+      <li class=""><a href="https://yk-portfolio-0213.com/#top" class="g-navi__items">Top</a></li>
+      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#skills" class="g-navi__items">Skills</a></li>
+      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#works" class="g-navi__items">Works</a></li>
+      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#profile" class="g-navi__items">Profile</a></li>
       <!-- <li class="pt-lg-5 pt-3"><a href="#blog" class="g-navi__items">Blog</a></li> -->
     </ul>
   </nav>
