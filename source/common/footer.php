@@ -10,7 +10,7 @@
         <li class="pb-5"><a href="https://yk-portfolio-0213.com/#skills">Skills</a></li>
         <li class="pb-5"><a href="https://yk-portfolio-0213.com/#works">Works</a></li>
         <li class="pb-5"><a href="https://yk-portfolio-0213.com/#profile">Profile</a></li>
-        <!-- <li><a href="#">Blog</a></li> -->
+        <li><a href="https://yk-portfolio-0213.com/#blog">Blog</a></li>
       </ul>
     </div>
     <div class="text-center">

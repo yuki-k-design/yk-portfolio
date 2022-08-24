@@ -15,7 +15,7 @@
       <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#skills" class="g-navi__items">Skills</a></li>
       <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#works" class="g-navi__items">Works</a></li>
       <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#profile" class="g-navi__items">Profile</a></li>
-      <!-- <li class="pt-lg-5 pt-3"><a href="#blog" class="g-navi__items">Blog</a></li> -->
+      <li class="pt-lg-5 pt-3"><a href="https://yk-portfolio-0213.com/#blog" class="g-navi__items">Blog</a></li>
     </ul>
   </nav>
 </header>
