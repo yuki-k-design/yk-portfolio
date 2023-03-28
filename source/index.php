@@ -24,7 +24,7 @@
         <div class="row">
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-photoshop-lg.png" class="img-fluid" alt="Photoshopアイコン">
+              <img src="img/icon-photoshop-lg.png" class="img-fluid" width="100%" alt="Photoshopアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -37,7 +37,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-illustrator-lg.png" class="img-fluid" alt="illustratorアイコン">
+              <img src="img/icon-illustrator-lg.png" class="img-fluid" width="100%" alt="illustratorアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -50,7 +50,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-xd-lg.png" class="img-fluid" alt="adobeXDアイコン">
+              <img src="img/icon-xd-lg.png" class="img-fluid" width="100%" alt="adobeXDアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-html-lg.png" class="img-fluid" alt="HTMLアイコン">
+              <img src="img/icon-html-lg.png" class="img-fluid" width="100%" alt="HTMLアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -84,7 +84,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-css-lg.png" class="img-fluid" alt="CSSアイコン">
+              <img src="img/icon-css-lg.png" class="img-fluid" width="100%" alt="CSSアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -97,7 +97,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-js-lg.png" class="img-fluid" alt="JavaScriptアイコン">
+              <img src="img/icon-js-lg.png" class="img-fluid" width="100%" alt="JavaScriptアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -110,7 +110,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-sass-lg.png" class="img-fluid" alt="Sassアイコン">
+              <img src="img/icon-sass-lg.png" class="img-fluid" width="100%" alt="Sassアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -123,7 +123,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-jquery-lg.png" class="img-fluid" alt="jQueryアイコン">
+              <img src="img/icon-jquery-lg.png" class="img-fluid" width="100%" alt="jQueryアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -136,7 +136,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-bootstrap-lg.png" class="img-fluid" alt="Bootstrapアイコン">
+              <img src="img/icon-bootstrap-lg.png" class="img-fluid" width="100%" alt="Bootstrapアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -157,7 +157,7 @@
         <div class="row">
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-ruby-lg.png" class="img-fluid" alt="Rubyアイコン">
+              <img src="img/icon-ruby-lg.png" class="img-fluid" width="100%" alt="Rubyアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -170,7 +170,7 @@
           </div>
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-sql-lg.png" class="img-fluid" alt="SQLServerアイコン">
+              <img src="img/icon-sql-lg.png" class="img-fluid" width="100%" alt="SQLServerアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -191,7 +191,7 @@
         <div class="row">
           <div class="col-md-3 col-4 pb-5">
             <div class="skills__skill">
-              <img src="img/icon-analytics-lg.png" class="img-fluid" alt="GoogleAnalyticsアイコン">
+              <img src="img/icon-analytics-lg.png" class="img-fluid" width="100%" alt="GoogleAnalyticsアイコン">
               <div class="skill__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
