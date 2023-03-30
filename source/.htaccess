@@ -1,8 +1,7 @@
-LoadModule php5_module modules/libphp5.so
 AddType application/x-httpd-php .php
 
 AddHandler php8.1.9-script .htm .html
 
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^.*/index.php
-RewriteRule ^(.*)index.php$ https://yk-portfolio-0213.com/$1 [R=301,L]
+RewriteRule ^(.*)index.php$ https://yk-portfolio-0213.art/ [R=301,L]
