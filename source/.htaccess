@@ -5,4 +5,4 @@ AddHandler php8.1.9-script .htm .html
 
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^.*/index.php
-RewriteRule ^(.*)index.php$ https://yk-portfolio-0213.com/$1 [R=301,L]
+RewriteRule ^(.*)index.php$ https://yk-portfolio-0213.art/$1 [R=301,L]

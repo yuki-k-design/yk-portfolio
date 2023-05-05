@@ -307,7 +307,7 @@
         
         <?php foreach ($result as $contents): ?>
           <div class="col-6 col-lg-3 pb-5">
-            <a href="<?php echo 'https://yk-portfolio-0213.com/blog/blog.php?id=' . $contents['id'] ?>" class="base__link--active">
+            <a href="<?php echo 'https://yk-portfolio-0213.art/blog/blog.php?id=' . $contents['id'] ?>" class="base__link--active">
               <div class="works__work">
                 <img src="<?php echo $contents['img_1']['url'] ?>" class="img-fluid"  width="100%" alt="<?php echo $contents['title'] ?>">
                 <div class="work__mask">
