@@ -18,9 +18,13 @@
       <div class="row">
         <?php foreach ($blogArray['contents'] as $contents): ?>
             <div class="col-6 col-lg-3 pb-5">
-              <a href="<?php echo 'https://yk-portfolio-0213.art/blog/blog.php?id=' . $contents['id'] ?>" class="base__link--active">
+              <a href="<?php echo '/blog/blog.php?id=' . $contents['id'] ?>" class="base__link--active">
                 <div class="works__work">
-                  <img src="<?php echo $contents['img_1']['url'] ?>" class="img-fluid"  width="100%" alt="<?php echo $contents['title'] ?>">
+                  <?php if (isset ($contents['img_1']) ): ?>
+                    <img src="<?php echo $contents['img_1']['url'] ?>" class="img-fluid" width="100%" alt="<?php echo $contents['title'] ?>">
+                  <?php else: ?>
+                    <img src="/img/no-image.png" class="img-fluid" width="100%" alt="no-image">
+                  <?php endif ?>
                   <div class="work__mask">
                     <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                       <div>
