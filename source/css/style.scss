@@ -384,7 +384,7 @@ header {
     }
     &__bar {
         width: 1px;
-        height: 30rem;
+        height: 100%;
         background: #FFC4AB;
         position: absolute;
         left: 1rem;
@@ -398,9 +398,6 @@ header {
             &::before {
                 left: -2rem;
             }
-        }
-        &__bar {
-            height: 24rem;
         }
     }
 }
