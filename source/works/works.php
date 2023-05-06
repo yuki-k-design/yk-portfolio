@@ -15,6 +15,51 @@
     <div class="container-fluid p-0 flex-wrap fadeUpTrigger">
       <div class="row">
         <div class="col-6 col-lg-3 pb-5">
+          <a href="../works/work-10.php" class="base__link--active">
+            <div class="works__work">
+              <img src="../img/work-nissan02.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <div class="work__mask">
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <div>
+                    <p class="m-0">More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="h5 mt-1">2023.02</h3>
+        </div>
+        <div class="col-6 col-lg-3 pb-5">
+          <a href="../works/work-09.php" class="base__link--active">
+            <div class="works__work">
+              <img src="../img/work-milbon01.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <div class="work__mask">
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <div>
+                    <p class="m-0">More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="h5 mt-1">2023.01</h3>
+        </div>
+        <div class="col-6 col-lg-3 pb-5">
+          <a href="../works/work-08.php" class="base__link--active">
+            <div class="works__work">
+              <img src="../img/work-nissan01.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <div class="work__mask">
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <div>
+                    <p class="m-0">More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="h5 mt-1">2022.11</h3>
+        </div>
+        <div class="col-6 col-lg-3 pb-5">
           <a href="../works/work-07.php" class="base__link--active">
             <div class="works__work">
               <img src="../img/work-nomura01.png" class="img-fluid" width="100%" alt="制作実績画像">
@@ -118,6 +163,21 @@
             </div>
           </a>
           <h3 class="h5 mt-1">2020.04</h3>
+        </div>
+        <div class="col-6 col-lg-3 pb-5">
+          <a href="../works/work-11.php" class="base__link--active">
+            <div class="works__work">
+              <img src="../img/work-minkabu.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <div class="work__mask">
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <div>
+                    <p class="m-0">More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="h5 mt-1">2019.09</h3>
         </div>
       </div>
     </div>
