@@ -212,9 +212,9 @@
     <div class="container-fluid p-0 flex-wrap fadeUpTrigger">
       <div class="row">
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-04.php" class="base__link--active">
+          <a href="works/work-10.php" class="base__link--active">
             <div class="works__work">
-              <img src="img/work-shinbara01.png" class="img-fluid"  width="100%" alt="制作実績画像">
+              <img src="img/work-nissan02.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -224,12 +224,12 @@
               </div>
             </div>
           </a>
-          <h3 class="h6 mt-1">2021.05</h3>
+          <h3 class="h6 mt-1">2022.02</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-03.php" class="base__link--active">
+          <a href="works/work-09.php" class="base__link--active">
             <div class="works__work">
-              <img src="img/work-kabutan02.png" class="img-fluid"  width="100%" alt="制作実績画像">
+              <img src="img/work-milbon01.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -239,12 +239,12 @@
               </div>
             </div>
           </a>
-          <h3 class="h6 mt-1">2020.07</h3>
+          <h3 class="h6 mt-1">2022.01</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-02.php" class="base__link--active">
+          <a href="works/work-08.php" class="base__link--active">
             <div class="works__work">
-              <img src="img/work-kabutan03.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <img src="img/work-nissan01.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -254,12 +254,12 @@
               </div>
             </div>
           </a>
-          <h3 class="h6 mt-1">2020.06</h3>
+          <h3 class="h6 mt-1">2022.11</h3>
         </div>
         <div class="col-6 col-lg-3 pb-5">
-          <a href="works/work-01.php" class="base__link--active">
+          <a href="works/work-07.php" class="base__link--active">
             <div class="works__work">
-              <img src="img/work-kabutan01.png" class="img-fluid" width="100%" alt="制作実績画像">
+              <img src="img/work-nomura01.png" class="img-fluid"  width="100%" alt="制作実績画像">
               <div class="work__mask">
                 <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                   <div>
@@ -269,7 +269,7 @@
               </div>
             </div>
           </a>
-          <h3 class="h6 mt-1">2020.04</h3>
+          <h3 class="h6 mt-1">2021.06</h3>
         </div>
       </div>
       <div class="text-right">
@@ -291,7 +291,11 @@
       </div>
       <div class="fadeUpTrigger">
         <dt class="h5">2019.09　株式会社ミンカブ・ジ・インフォノイド 入社</dt>
-        <dd>Webデザイナーとして投資家向けサイトの運用保守を主に行う。バナーやLPのデザイン作成から実装、またSEO対策まで携わる。</dd>
+        <dd class="mb-6">Webデザイナーとして投資家向けサイトの運用保守を主に行う。バナーやLPのデザイン作成から実装、またSEO対策まで携わる。</dd>
+      </div>
+      <div class="fadeUpTrigger">
+        <dt class="h5">2022.10　エモティア合同会社 入社</dt>
+        <dd>WebデザイナーとしてWebサイトのデザイン制作を担当する。バナーや画像、アニメーションの作成も行う。</dd>
       </div>
     </dl>
   </section>
